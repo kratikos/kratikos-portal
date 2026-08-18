@@ -2,6 +2,8 @@
 
 Portal administrativo da plataforma Kratikos para acompanhamento do negócio e gestão de administradores, usuários, moderação, posts e enquetes.
 
+Produção: [portal.kratikos.com.br](https://portal.kratikos.com.br)
+
 ## Requisitos
 
 - Node.js `>=22.13.0`
@@ -35,9 +37,10 @@ npm run lint
 npm test
 ```
 
-## Produção
+## Publicação na Vercel
 
 ```bash
 npm run build
-npm run start
 ```
+
+Na Vercel, configure `KRATIKOS_API_URL` para o backend do ambiente desejado. O build usa Nitro e gera a saída compatível com a Vercel automaticamente.
