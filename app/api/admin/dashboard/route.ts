@@ -70,6 +70,13 @@ export async function GET(request: Request) {
             accountsLast30Days: [],
             votesLast30Days: [],
             usersByState: [],
+            rankings: {
+              categories: [],
+              users: [],
+              polls: [],
+              posts: [],
+              cities: [],
+            },
             generatedAt: new Date().toISOString(),
             partial: true,
           },
