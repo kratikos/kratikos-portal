@@ -18,7 +18,7 @@ cp .env.example .env
 ```
 
 ```env
-KRATIKOS_API_URL=https://endereco-do-backend
+KRATIKOS_API_URL=https://kratikos-backend-production.up.railway.app
 ```
 
 ## Desenvolvimento
@@ -43,4 +43,4 @@ npm test
 npm run build
 ```
 
-Na Vercel, configure `KRATIKOS_API_URL` para o backend do ambiente desejado. O build usa Nitro e gera a saída compatível com a Vercel automaticamente.
+Na Vercel, configure `KRATIKOS_API_URL` como `https://kratikos-backend-production.up.railway.app` nos ambientes de Production. O build usa Nitro e gera a saída compatível com a Vercel automaticamente.
